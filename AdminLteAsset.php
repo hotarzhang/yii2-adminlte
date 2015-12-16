@@ -14,8 +14,6 @@ use yii\web\AssetBundle;
 
 class AdminLteAsset extends AssetBundle{
 
-    public $sourcePath = "@vendor/almasaeed2010/adminlte/dist";
-
     public $css = [
         'css/AdminLTE.min.css',
     ];
@@ -33,6 +31,7 @@ class AdminLteAsset extends AssetBundle{
 
     public function init()
     {
+		$this->sourcePath = dirname(__FILE__) .DIRECTORY_SEPARATOR . 'assets';
         // Append skin color file if specified
         if ($this->skin) {
             if (('_all-skins' !== $this->skin) && (strpos($this->skin, 'skin-') !== 0)) {
