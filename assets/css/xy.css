@@ -1,4 +1,6 @@
+h1{font-size: 24px;}
 .content-wrapper { background-color: #f9f9f9}
 .table-bordered {border: 1px solid #ddd}
 table {background-color: #f6f6f6}
+.content {padding-top: 0px;}
 .table-bordered>thead>tr>th, .table-bordered>tbody>tr>th, .table-bordered>tfoot>tr>th, .table-bordered>thead>tr>td, .table-bordered>tbody>tr>td, .table-bordered>tfoot>tr>td {border: 1px solid #ddd}
