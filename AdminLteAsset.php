@@ -18,6 +18,7 @@ class AdminLteAsset extends AssetBundle{
         'css/font-awesome.min.css',
         'css/ionicons.min.css',
         'css/AdminLTE.min.css',
+        'css/xy.css'
     ];
 
     public $js = [
